@@ -8,6 +8,5 @@ import partytown from "@astrojs/partytown";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://vvaldesc.github.io',
-  base: '/Personal_Portfolio',
   integrations: [mdx(), sitemap(), tailwind(), partytown()]
 });
